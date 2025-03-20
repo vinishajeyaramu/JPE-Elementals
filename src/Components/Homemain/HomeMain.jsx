@@ -542,7 +542,7 @@ const HomeMain = () => {
     </form>
   </div>
   <div class="contact-info">
-  <iframe className='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.4103512684246!2d77.64110587325429!3d10.14726077048713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07438fed36b551%3A0x3aca91c132235da0!2sPallivasal%20Street%2C%20Devadanapatti%2C%20Tamil%20Nadu%20625602!5e0!3m2!1sen!2sin!4v1735352605773!5m2!1sen!2sin" width="500" height="250" ></iframe>
+  <iframe className='map'  title="Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.4103512684246!2d77.64110587325429!3d10.14726077048713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07438fed36b551%3A0x3aca91c132235da0!2sPallivasal%20Street%2C%20Devadanapatti%2C%20Tamil%20Nadu%20625602!5e0!3m2!1sen!2sin!4v1735352605773!5m2!1sen!2sin" width="500" height="250" ></iframe>
     < FaPhone className="c-icon" />
     <h3>Make A Call</h3>
     <p>+91 7010456733</p>
@@ -560,7 +560,7 @@ const HomeMain = () => {
         <div className='repair-cont-1'>
             <h3>Want to repair gadget ?</h3>
             <p className='r-c-1'>Tech Repairs Done Right, Every Time.</p>
-            <a href="" className='rc-link-1'>Contact Us</a>
+            <a href="/contact" className='rc-link-1'>Contact Us</a>
         </div>
     </div>
            
