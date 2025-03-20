@@ -1,0 +1,409 @@
+.footer{
+    width: 100%;
+    height: 75vh;
+    background-color: #034064;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+}
+.f-content{
+    width: 40vw;
+}
+.footer img{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.f-c{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 10px;
+}
+.social-link{
+    width: 80%;
+    margin-left: 1%;
+}
+.social-link h2{
+    font-size: 25px;
+    margin-left: 3%;
+    padding: 10px;
+    
+}
+.sl-icon {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sl-icon a{
+    background-color: #0579bc6f;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 6px;
+    color: aliceblue;
+
+}
+.sl-icon a:hover{
+    color: #034064;
+}
+.pages{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 0%;
+}
+.pages h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.pages a{
+    width: 35%;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.pages a:hover{
+    color: #0579bc;
+}
+.innerpages{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-top: 0px;
+}
+.innerpages h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.innerpages a{
+    width: 80%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.innerpages a:hover{
+    color: #0579bc;
+}
+.info{
+    width: 100%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:0%;
+    margin-top: 0px;
+}
+.info h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.info a{
+    width: 65%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 2%;
+    font-weight: 600;
+}
+.info a:hover{
+    color: #0579bc;
+}
+.trends-section{
+    width: 40%;
+    height: 30vh;
+    position: absolute;
+    left: 63%;
+    bottom: 0px;
+}
+.trends-section h3{
+    font-size: 20px;
+    margin-left: 1%;
+}
+.ts-cont{
+    width: 100%;
+    display: flex;
+    background-color: #0579bc6f;
+    border-radius: 25px;
+    margin-top: 4%;
+}
+.ts-cont input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    border-top-left-radius:25px ;
+    border-bottom-left-radius: 25px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+.ts-cont input::placeholder{
+    color: aliceblue;
+    font-size:16px;
+    font-family: "Inconsolata", serif;
+    
+}
+.ts-cont button{
+    width: 30%;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+    background-color:#0579bc;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ts-cont button:hover{
+    color: #034064;
+}
+.checkbox-container{
+    width: 100%;
+    margin-bottom: 15%;
+    margin-left: 2%;
+}
+.checkbox-container label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 1%;
+}
+.checkbox-container label a{
+    color: #0579bc;
+
+}
+
+@media screen and (max-width:600px) {
+    .footer{
+        width: 100%;
+        height: 140vh;
+        background-color: #034064;
+        color: aliceblue;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+    }
+    .f-content{
+        width: 70vw;
+    }
+    .footer img{
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 7%;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+    .f-c{
+        width: 100%;
+        font-size: 25px;
+        font-weight: 600;
+        color: aliceblue;
+        margin-left: 3%;
+        margin-top: 3%;
+        padding: 10px;
+    }
+    .social-link{
+        width: 100%;
+        margin-left: 1%;
+    }
+    .social-link h2{
+        font-size: 25px;
+        margin-left: 3%;
+        padding: 10px;
+        
+    }
+    .sl-icon {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 3%;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .sl-icon a{
+        background-color: #0579bc6f;
+        padding: 10px;
+        border-radius: 10px;
+        padding-bottom: 6px;
+        color: aliceblue;
+    
+    }
+    .sl-icon a:hover{
+        color: #034064;
+    }
+    .pages{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-top: 10%;
+    }
+    .pages h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    .pages a{
+        width: 60%;
+        text-decoration: none;
+        color:aliceblue;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .pages a:hover{
+        color: #0579bc;
+    }
+    .innerpages{
+        width: 80%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-top: -287px;
+    }
+    .innerpages h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    .innerpages a{
+        width: 80%;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+    .innerpages a:hover{
+        color: #0579bc;
+    }
+    .info{
+        width: 80%;
+        height: 32vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: -20%;
+        margin-top: -280px;
+    }
+    .info h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    .info a{
+        width: 100%;
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 18px;
+        margin-top: 2%;
+        font-weight: 600;
+    }
+    .info a:hover{
+        color: #0579bc;
+    }
+    .trends-section{
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+        left: 10%;
+        bottom: 30px;
+    }
+    .trends-section h3{
+        font-size: 20px;
+        margin-left: 1%;
+    }
+    .ts-cont{
+        width: 100%;
+        display: flex;
+        background-color: #0579bc6f;
+        border-radius: 25px;
+        margin-top: 4%;
+    }
+    .ts-cont input{
+        width: 70%;
+        height: 100%;
+        border: none;
+        background-color: transparent;
+        padding: 15px;
+        border-top-left-radius:25px ;
+        border-bottom-left-radius: 25px;
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: 600;
+        outline: none;
+    }
+    .ts-cont input::placeholder{
+        color: aliceblue;
+        font-size:16px;
+        font-family: "Inconsolata", serif;
+        
+    }
+    .ts-cont button{
+        width: 30%;
+        height: 100%;
+        border: none;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        padding: 15px;
+        background-color:#0579bc;
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .ts-cont button:hover{
+        color: #034064;
+    }
+    .checkbox-container{
+        width: 100%;
+        margin-bottom: 25%;
+        margin-left: 2%;
+    }
+    .checkbox-container label{
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 1%;
+    }
+    .checkbox-container label a{
+        color: #0579bc;
+    
+    }
+}
